@@ -1,0 +1,7 @@
+# Specify the JDK version to use for building the project
+jdk:
+  - openjdk17
+
+before-install:
+  -sdk install java 17.0.10-open
+  -sdk use java 17.0.10-open
